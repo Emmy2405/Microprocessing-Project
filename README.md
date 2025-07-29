@@ -2,7 +2,7 @@
 
 ## Project Overview
  I developed an 8-bit style arcade game for a group project using embedded C on the STM32F031X6 microcontroller, demonstrating skills in real-time systems and hardware-software integration.
- GRADE RECIEVED : 88.24%
+ - GRADE RECIEVED : 88.24%
 
 ## Key Skills Gained
 - **Real-Time Programming:** Timers, music playback, LED animations
