@@ -1,40 +1,41 @@
 # 8-Bit Arcade Game for STM32
 
 ## Project Overview
-A fast-paced 8-bit style arcade game developed in embedded C on the STM32F031X6 microcontroller. This project showcases real-time embedded programming, low-level hardware control, and system integration.
+ I developed an 8-bit style arcade game for a group project using embedded C on the STM32F031X6 microcontroller, demonstrating skills in real-time systems and hardware-software integration.
 
-## 🔧 Key Skills Gained
-- **Real-Time Programming:** Timers, music playback, LED animations  
-- **Hardware Integration:** `GPIO`, `PWM`, `UART`  
-- **State Management:** Menu transitions, lives, and scoring system  
-- **Debugging:** Addressed timing and memory constraints  
-- **Teamwork:** Coordinated embedded development with hardware testing
+## Key Skills Gained
+- **Real-Time Programming:** Timers, music playback, LED animations
+- **Hardware Integration:** GPIO, PWM, UART configuration
+- **Game State Management:** Life system, scoring, menu transitions
+- **Debugging:** Resolved timing/memory constraints
+- **Collaboration:** Team-based hardware-software integration
 
-## 🎮 Game Features
-- **45-second Timer:** Collect coins before time runs out  
+## Game Features
+- **45-second Timer:** Fast-paced coin collection challenge
 - **Dual Controls:**
   - Physical buttons
-  - Serial terminal (`A` = left, `D` = right)  
-- **Visual Feedback:** LED life indicators, heart animations  
-- **Audio:** Chiptune music + sound effects  
-- **UI Screens:** Welcome and Game Over displays  
+  - Serial keyboard input (A/D keys)
+- **Visual Feedback:**
+  - LED life indicators
+  - Heart sprite animations
+- **Audio:** Chiptune music and sound effects
+- **UI Screens:** Welcome and Game Over displays
 
-## ⚙️ Technical Setup
+## Technical Setup
+### Hardware:
+- STM32F031X6 MCU
+- Breadboard with LEDs/buttons
 
-**Hardware:**  
-- STM32F031X6 MCU  
-- Breadboard with LEDs and buttons  
+### Software:
+- PlatformIO in VS Code
+- Serial terminal (Putty)
 
-**Software:**  
-- PlatformIO in VS Code  
-- Serial terminal (e.g. PuTTY)  
+## How to Play
+1. Flash the compiled binary to STM32
+2. Control via:
+   - Physical buttons, or
+   - Serial keyboard (A=left, D=right)
+3. Catch coins before time/lives run out!
 
-## 🕹️ How to Play
-1. Flash the binary to the STM32 board  
-2. Use either:
-   - Onboard buttons, or  
-   - Serial keyboard input via terminal (`A` = left, `D` = right)  
-3. Catch as many coins as possible before time or lives run out!
-
-## 📺 Game Preview
+## Game Preview
 [![Game Demo](https://img.youtube.com/vi/XXBCwJLTPe4/0.jpg)](https://youtu.be/XXBCwJLTPe4)
