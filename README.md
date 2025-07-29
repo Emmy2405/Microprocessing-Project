@@ -30,12 +30,5 @@
 - PlatformIO in VS Code
 - Serial terminal (Putty)
 
-## How to Play
-1. Flash the compiled binary to STM32
-2. Control via:
-   - Physical buttons, or
-   - Serial keyboard (A=left, D=right)
-3. Catch coins before time/lives run out!
-
 ## Game Preview
 [![Game Demo](https://img.youtube.com/vi/XXBCwJLTPe4/0.jpg)](https://youtu.be/XXBCwJLTPe4)
