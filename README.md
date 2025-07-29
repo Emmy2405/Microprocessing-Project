@@ -1,4 +1,4 @@
-# 🎮 8-Bit Arcade Game for STM32
+# 8-Bit Arcade Game for STM32
 
 ## Project Overview
 A fast-paced 8-bit style arcade game developed in embedded C on the STM32F031X6 microcontroller. This project showcases real-time embedded programming, low-level hardware control, and system integration.
@@ -11,13 +11,13 @@ A fast-paced 8-bit style arcade game developed in embedded C on the STM32F031X6 
 - **Teamwork:** Coordinated embedded development with hardware testing
 
 ## 🎮 Game Features
-- ⏱️ **45-second Timer:** Collect coins before time runs out  
-- 🕹️ **Dual Controls:**
+- **45-second Timer:** Collect coins before time runs out  
+- **Dual Controls:**
   - Physical buttons
   - Serial terminal (`A` = left, `D` = right)  
-- 💡 **Visual Feedback:** LED life indicators, heart animations  
-- 🔊 **Audio:** Chiptune music + sound effects  
-- 🖥️ **UI Screens:** Welcome and Game Over displays  
+- **Visual Feedback:** LED life indicators, heart animations  
+- **Audio:** Chiptune music + sound effects  
+- **UI Screens:** Welcome and Game Over displays  
 
 ## ⚙️ Technical Setup
 
